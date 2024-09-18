@@ -46,9 +46,12 @@ Publications during my undergraduate.
 - Beibei Li, **Shang Ma**, Ruilong Deng, Kim-Kwang Raymond Choo, Jin Yang
 "Federated anomaly detection on system logs for the internet of things: A customizable and communication-efficient approach". IEEE Transactions on Network and Service Management (**TNSM**)
 - Beibei Li, Peiran Wang, Hanyuan Huang, **Shang Ma**, Yukun Jiang. "FlPhish: Reputation-based phishing byzantine defense in ensemble federated learning". IEEE Symposium on Computers and Communications (**ISCC 2021**)
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+
+[//]: # (<!-- # 🎖 Honors and Awards)
+
+[//]: # (- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+
+[//]: # (- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->)
 
 # 📖 Educations
 - 2022.09 - 2027.05 PhD, Computer Science and Engineering, University of Notre Dame
