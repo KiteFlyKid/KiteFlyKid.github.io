@@ -17,18 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Shang Ma, a third-year PhD student at the University of Notre Dame. I am fortunate to be advised by Prof. [Yanfang (Fanny) Ye](http://yes-lab.org/) and Prof. [Xusheng Xiao](https://xusheng-xiao.github.io/).
+I am Shang Ma, a third-year PhD student at the University of Notre Dame. I am fortunate to be advised by [Yanfang (Fanny) Ye](http://yes-lab.org/) and [Xusheng Xiao](https://xusheng-xiao.github.io/).
 
-I completed my undergraduate degree at Sichuan University, Wuy Yuzhang Honors College, where I was a member of the college basketball team and the debate team. My undergraduate advisors were [Beibei Li](https://li-beibei.github.io/) and [Cheng Huang](https://chenghuang.org/).
+I completed my undergraduate degree at Sichuan University, Wu Yuzhang Honors College, where I was a member of the college basketball team and the debate team. My undergraduate advisors were Beibei Li and Cheng Huang.
 
 My research interests lie in **software security**, with a focus on combining program analysis and artificial intelligence techniques to address security challenges.
 
 In my free time, I enjoy road trips, going to the gym, and exploring history and military geography.
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 Started my visit at **Curiosity Lab**, National University of Singapore, supervised by **Prof. Zhenkai Liang**.
+- *2024.10*: &nbsp;🎉🎉 Started my visit at **Curiosity Lab**, National University of Singapore, working with **[Zhenkai Liang](https://www.comp.nus.edu.sg/~liangzk/)**.
 - *2024.09*: &nbsp;🎉🎉 Our paper **"Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph"** was accepted by **NDSS 2025**.
-- *2024.03*: &nbsp;🎉🎉 Began my visiting period at **ASE Lab**, Peking University, supervised by **Prof. [Tao Xie](https://taoxiease.github.io/)**.
+- *2024.03*: &nbsp;🎉🎉 Began my visiting period at **ASE Lab**, Peking University, working with **[Tao Xie](https://taoxiease.github.io/)**.
 - *2022.08*: &nbsp;🎉🎉 Began my PhD journey.
 
 # 📝 Publications 
@@ -45,7 +45,7 @@ Publications during my undergraduate.
 
 - Beibei Li, **Shang Ma**, Ruilong Deng, Kim-Kwang Raymond Choo, Jin Yang
 "Federated anomaly detection on system logs for the internet of things: A customizable and communication-efficient approach". IEEE Transactions on Network and Service Management (**TNSM**)
-- Beibei Li, Peiran Wang, Hanyuan Huang, **Shang Ma**, Yukun Jiang. "FlPhish: Reputation-based phishing byzantine defense in ensemble federated learning". IEEE Symposium on Computers and Communications (**ISCC 2021**)
+- Beibei Li, Peiran Wang, Hanyuan Huang, **Shang Ma**, Yukun Jiang. "FlPhish: Reputation-based phishing byzantine defense in ensemble federated learning". IEEE Symposium on Computers and Communications (**ISCC 2021**) Best Paper.
 
 [//]: # (<!-- # 🎖 Honors and Awards)
 
