@@ -19,16 +19,16 @@ redirect_from:
 
 I am Shang Ma, a third-year PhD student at the University of Notre Dame. I am fortunate to be advised by [Yanfang (Fanny) Ye](http://yes-lab.org/) and [Xusheng Xiao](https://xusheng-xiao.github.io/).
 
-I completed my undergraduate degree at Sichuan University, Wu Yuzhang Honors College, where I was a member of the college basketball team and the debate team. My undergraduate advisors were Beibei Li and Cheng Huang.
+I completed my undergraduate degree at  Wuyuzhang Honors College of Sichuan University. My undergraduate advisors were Beibei Li and Cheng Huang.
 
-My research interests lie in **software security**, with a focus on combining program analysis and artificial intelligence techniques to address security challenges.
+My research interests span **mobile security**, scam, fraud with a focus on combining program analysis and artificial intelligence techniques to address security challenges.
 
 In my free time, I enjoy road trips, going to the gym, and exploring history and military geography.
 
 # 🔥 News
 - *2024.10*: &nbsp;🎉🎉 Started my visit at **Curiosity Lab**, National University of Singapore, working with **[Zhenkai Liang](https://www.comp.nus.edu.sg/~liangzk/)**.
 - *2024.09*: &nbsp;🎉🎉 Our paper **"Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph"** was accepted by **NDSS 2025**.
-- *2024.03*: &nbsp;🎉🎉 Began my visiting period at **ASE Lab**, Peking University, working with **[Tao Xie](https://taoxiease.github.io/)**.
+- *2024.03*: &nbsp;🎉🎉 Began my visiting at **ASE Lab**, Peking University, working with **[Tao Xie](https://taoxiease.github.io/)**.
 - *2022.08*: &nbsp;🎉🎉 Began my PhD journey.
 
 # 📝 Publications 
@@ -40,6 +40,11 @@ European Conference on Machine Learning and Principles and Practice of Knowledge
 - Zhongyu Ouyang, Shifu Hou, **Shang Ma**, Chaoran Chen, Chunhui Zhang, Toby Li, Xusheng Xiao, Chuxu Zhang, Yanfang Ye. "Prompt Learning Unlocked for App Promotion in the Wild".
 NeurIPS 2023 Workshop: New Frontiers in Graph Learning (**GLFrontiers 2023**) [[PDF](https://openreview.net/pdf?id=JTRErQb2oN)]
 
+In Submission
+
+- Detecting Mobile Ads via Static Analysis and LLM-Guided UI Navigation. International Conference on Mobile Systems, Applications, and Services (**MobiSys 2025**)
+- Multi-dimensional Benchmark for Mobile UI Navigation". SIGSOFT International Symposium on Software Testing and Analysis (**ISSTA 2025**)
+- Detecting Functionality-Specific Vulnerabilities via Retrieving APIs. SIGSOFT International Symposium on Software Testing and Analysis (**ISSTA 2025**)
 
 Publications during my undergraduate.
 
@@ -55,7 +60,7 @@ Publications during my undergraduate.
 
 # 📖 Educations
 - 2022.09 - 2027.05 PhD, Computer Science and Engineering, University of Notre Dame
-- 2018.09 - 2022.06 Undergraduate, Wu Yuzhang Honors College, Sichuan University
+- 2018.09 - 2022.06 Undergraduate, Wuyuzhang Honors College, Sichuan University
 
 
 <!-- # 💬 Invited Talks
