@@ -40,11 +40,14 @@ European Conference on Machine Learning and Principles and Practice of Knowledge
 - Zhongyu Ouyang, Shifu Hou, **Shang Ma**, Chaoran Chen, Chunhui Zhang, Toby Li, Xusheng Xiao, Chuxu Zhang, Yanfang Ye. "Prompt Learning Unlocked for App Promotion in the Wild".
 NeurIPS 2023 Workshop: New Frontiers in Graph Learning (**GLFrontiers 2023**) [[PDF](https://openreview.net/pdf?id=JTRErQb2oN)]
 
-In Submission
+[//]: # (In Submission)
 
-- Detecting Mobile Ads via Static Analysis and LLM-Guided UI Navigation. International Conference on Mobile Systems, Applications, and Services (**MobiSys 2025**)
-- Multi-dimensional Benchmark for Mobile UI Navigation". SIGSOFT International Symposium on Software Testing and Analysis (**ISSTA 2025**)
-- Detecting Functionality-Specific Vulnerabilities via Retrieving APIs. SIGSOFT International Symposium on Software Testing and Analysis (**ISSTA 2025**)
+[//]: # ()
+[//]: # (- Detecting Mobile Ads via Static Analysis and LLM-Guided UI Navigation. International Conference on Mobile Systems, Applications, and Services &#40;**MobiSys 2025**&#41;)
+
+[//]: # (- Multi-dimensional Benchmark for Mobile UI Navigation". SIGSOFT International Symposium on Software Testing and Analysis &#40;**ISSTA 2025**&#41;)
+
+[//]: # (- Detecting Functionality-Specific Vulnerabilities via Retrieving APIs. SIGSOFT International Symposium on Software Testing and Analysis &#40;**ISSTA 2025**&#41;)
 
 Publications during my undergraduate.
 
