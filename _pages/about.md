@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Shang Ma, a third-year PhD student at the University of Notre Dame. I am fortunate to be advised by [Yanfang (Fanny) Ye](http://yes-lab.org/) and [Xusheng Xiao](https://xusheng-xiao.github.io/).
+I am Shang Ma, a third-year PhD student at the University of Notre Dame. My advisor is Prof. [Yanfang (Fanny) Ye](http://yes-lab.org/). I also work with Prof. [Xusheng Xiao](https://xusheng-xiao.github.io/).
 
-I completed my undergraduate degree at  Wuyuzhang Honors College of Sichuan University. My undergraduate advisors were Beibei Li and Cheng Huang.
+I completed my undergraduate degree at  Wuyuzhang Honors College of Sichuan University. 
 
 My research interests span **mobile security**, scam, fraud with a focus on combining program analysis and artificial intelligence techniques to address security challenges.
 
@@ -64,6 +64,7 @@ Publications during my undergraduate.
 # 📖 Educations
 - 2022.09 - 2027.05 PhD, Computer Science and Engineering, University of Notre Dame
 - 2018.09 - 2022.06 Undergraduate, Wuyuzhang Honors College, Sichuan University
+
 
 
 <!-- # 💬 Invited Talks
