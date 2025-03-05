@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Shang Ma, a third-year PhD student at the University of Notre Dame. My advisor is Prof. [Yanfang (Fanny) Ye](http://yes-lab.org/). I also work with Prof. [Xusheng Xiao](https://xusheng-xiao.github.io/).
+I am Shang Ma, a third-year PhD student at the University of Notre Dame. My advisor is Prof. [Yanfang (Fanny) Ye](http://yes-lab.org/). 
+Under Prof. Ye's supervision, I collaborate with [my lab mates](http://yes-lab.org/students.html) and Prof. [Xusheng Xiao](https://xusheng-xiao.github.io/).
 
 I completed my undergraduate degree at  Wuyuzhang Honors College of Sichuan University. 
 
