@@ -27,6 +27,7 @@ My research interests span **mobile security**, scam, fraud with a focus on comb
 In my free time, I enjoy road trips, going to the gym, and exploring history and military geography.
 
 # 🔥 News
+- *2025.05*: &nbsp;🎉🎉  Check out our new work on psychological factors in scams: [arxiv](https://arxiv.org/pdf/2505.15017)
 - *2024.10*: &nbsp;🎉🎉 Started my visit at **Curiosity Lab**, National University of Singapore, working with **[Zhenkai Liang](https://www.comp.nus.edu.sg/~liangzk/)**.
 - *2024.09*: &nbsp;🎉🎉 Our paper **"Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph"** was accepted by **NDSS 2025**.
 - *2024.03*: &nbsp;🎉🎉 Began my visiting at **ASE Lab**, Peking University, working with **[Tao Xie](https://taoxiease.github.io/)**.
@@ -35,7 +36,7 @@ In my free time, I enjoy road trips, going to the gym, and exploring history and
 # 📝 Publications 
 
 - **Shang Ma**, Chaoran Chen, Shao Yang, Shifu Hou,
-Toby Jia-Jun Li, Xusheng Xiao, Tao Xie, Yanfang Ye. "Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph." Network and Distributed System Security (**NDSS 2025**)  [[PDF]](https://github.com/KiteFlyKid/KiteFlyKid.github.io/blob/main/assets/NDSS2025.pdf)[[Code](https://github.com/AppPromotionAdsResearch/AdGPE)]
+Toby Jia-Jun Li, Xusheng Xiao, Tao Xie, Yanfang Ye. "Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph." Network and Distributed System Security (**NDSS 2025**)  [[PDF]](https://www.ndss-symposium.org/wp-content/uploads/2025-51-paper.pdf)[[Code](https://github.com/AppPromotionAdsResearch/AdGPE)]
 - Zhongyu Ouyang, Chunhui Zhang, Shifu Hou, **Shang Ma**, Chaoran Chen, Toby Li, Xusheng Xiao, Chuxu Zhang, Yanfang Ye. "Symbolic Prompt Tuning Completes the App Promotion Graph". 
 European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (**ECML PKDD 2024**) [[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-70381-2_12)
 - Zhongyu Ouyang, Shifu Hou, **Shang Ma**, Chaoran Chen, Chunhui Zhang, Toby Li, Xusheng Xiao, Chuxu Zhang, Yanfang Ye. "Prompt Learning Unlocked for App Promotion in the Wild".
