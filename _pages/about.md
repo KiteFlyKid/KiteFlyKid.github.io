@@ -27,11 +27,13 @@ My research interests span **mobile security**, scam, fraud with a focus on comb
 In my free time, I enjoy road trips, going to the gym, and exploring history and military geography.
 
 # 🔥 News
-- *2025.08*: &nbsp;🎉🎉  Our paper **"PsyScam: A Benchmark for Psychological Techniques in Real-World Scams"** was accepted by EMNLP 2025.
-- *2024.10*: &nbsp;🎉🎉 Started my visit at **Curiosity Lab**, National University of Singapore, working with **[Zhenkai Liang](https://www.comp.nus.edu.sg/~liangzk/)**.
+- *2026.01*: &nbsp;💼 Started a research internship at NEC Labs (Princeton), working with Wei Cheng.
+- *2025.12*: &nbsp;🌟 Selected for the Meta Bug Bounty: Abuse Track. Looking forward to the upcoming challenges!
+- *2025.08*: &nbsp;🎉🎉 Our paper **"PsyScam: A Benchmark for Psychological Techniques in Real-World Scams"** was accepted by EMNLP 2025.
+- *2024.10*: &nbsp;🌏 Started my visit at **Curiosity Lab**, National University of Singapore, working with **[Zhenkai Liang](https://www.comp.nus.edu.sg/~liangzk/)**.
 - *2024.09*: &nbsp;🎉🎉 Our paper **"Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph"** was accepted by **NDSS 2025**.
-- *2024.03*: &nbsp;🎉🎉 Began my visiting at **ASE Lab**, Peking University, working with **[Tao Xie](https://taoxiease.github.io/)**.
-- *2022.08*: &nbsp;🎉🎉 Began my PhD journey.
+- *2024.03*: &nbsp;🌏 Began my visiting at **ASE Lab**, Peking University, working with **[Tao Xie](https://taoxiease.github.io/)**.
+- *2022.08*: &nbsp;🎓 Began my PhD journey.
 
 # 📝 Publications 
 
