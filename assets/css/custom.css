@@ -31,3 +31,14 @@ h2 { margin-top: 2rem; }
   .publications .publication-figure-link .preview { max-height: 110px; }
 }
 [id] { scroll-margin-top: 5rem; }
+
+/* Tight profile framing: keep the jumping pose while removing excess sky and water. */
+.profile figure {
+  overflow: hidden;
+  border-radius: .25rem;
+}
+.profile figure img {
+  display: block;
+  transform: scale(1.9);
+  transform-origin: 57% 58%;
+}
