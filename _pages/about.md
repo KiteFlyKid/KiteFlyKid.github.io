@@ -6,7 +6,7 @@ subtitle: PhD student · Computer Science and Engineering · University of Notre
 redirect_from: [/about/, /about.html]
 profile:
   align: right
-  image: shang-ma.png
+  image: shang-ma.jpg
   image_circular: false
   more_info: >
     <p>University of Notre Dame</p>
