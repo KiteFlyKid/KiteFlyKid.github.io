@@ -34,8 +34,8 @@ I completed my undergraduate studies at **Wuyuzhang Honors College, Sichuan Univ
 <span id="-news"></span>
 - **Sep 2026:** Agent+P accepted to the **AACL 2026 Main Conference**.
 - **Jul 2026:** PreScam accepted to **COLM 2026**.
-- **Jun 2026:** Started a research internship in the **Integrated Systems** department at **NEC Laboratories America, Princeton**, working with **Biplob Debnath**.
-- **Jan 2026:** Started a research internship in the **Data Science & System Security** department at **NEC Laboratories America, Princeton**, working with **Wei Cheng**.
+- **Jun 2026:** Started a research internship in the **Integrated Systems** department at **NEC Laboratories America, Princeton**, working with [**Biplob Debnath**](https://www.nec-labs.com/research/integrated-systems/people/biplob-debnath/).
+- **Jan 2026:** Started a research internship in the **Data Science & System Security** department at **NEC Laboratories America, Princeton**, working with [**Wei Cheng**](https://www.nec-labs.com/research/data-science-system-security/people/wei-cheng/).
 - **Dec 2025:** Selected for the **Meta Bug Bounty: Abuse Track**.
 - **Aug 2025:** PsyScam accepted to **EMNLP 2025**.
 - **Oct 2024:** Started a research visit to **Curiosity Lab, National University of Singapore**, working with [Zhenkai Liang](https://www.comp.nus.edu.sg/~liangzk/).
