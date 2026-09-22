@@ -1,72 +1,53 @@
+# Shang Ma’s academic website
 
-<h1 align="center">
-AcadHomepage
-</h1>
+Personal site at https://shangma.org, using the real [al-folio](https://github.com/alshedivat/al-folio) v1.2 theme runtime (`al_folio_core` 1.0.15). The theme provides the layouts, responsive navigation, typography, dark mode, and publication rendering. Only the necessary plugins are enabled; no demo posts or sample content are included.
 
-<div align="center">
+## Preview locally
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
-</div>
+Use Ruby 3.1.3 and Bundler:
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+```sh
+bundle config set --local path vendor/bundle
+bundle install
+bundle exec jekyll serve --host 127.0.0.1
+```
 
-<p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
-</p>
+Visit http://127.0.0.1:4000. `bundle exec jekyll build` creates `_site/`.
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+## Update content
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+- `_pages/about.md`: biography, news, and homepage.
+- `_bibliography/papers.bib`: all publications. Set `selected = {true}` to feature a paper on the homepage. Acceptance status belongs in the venue field until final proceedings metadata is available.
+- `_includes/experience.liquid`: both NEC Labs internships, shared by the homepage and CV.
+- `_includes/education.liquid`: education, shared by the education page and CV.
+- `_includes/services.liquid`: services, shared by the services page and CV.
+- `_pages/cv.md`: printable web CV. Its print button also supports saving as PDF through the browser.
+- `_data/socials.yml`: email and profile links.
+- `_config.yml`: site settings and canonical URL.
+- `assets/img/publication_preview/`: original figures for selected papers; sources are recorded in `docs/publication-figures.md`.
+- `_layouts/bib.liquid`: al-folio bibliography template with figure previews and full-size image links.
+- `assets/css/custom.css`: small site-specific and print adjustments.
+- `_includes/head.liquid`: upstream head template with one extra stylesheet; compare against upstream when upgrading the theme.
 
-## Quick Start
+The original portrait, domain (`CNAME`), images, and NDSS PDF are preserved. Theme dependencies and Linux/macOS platforms are locked in `Gemfile.lock`.
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+## Publish
 
-## Debug Locally
+In GitHub **Settings → Pages → Build and deployment**, choose **GitHub Actions**. The `Build and deploy al-folio` workflow builds pull requests and deploys pushes to `main` or `master`. This is required because al-folio’s plugins are not supported by GitHub’s default safe-mode Jekyll builder. The custom domain remains `shangma.org`.
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+## Content provenance
 
-# Acknowledges
+Existing biography, research visits, education dates, internship start, awards, and six earlier publications were migrated from the original `_pages/about.md`. The original time-sensitive “fourth-year” wording was changed to “PhD student.” The expected graduation date is retained from the repository. NEC internship date ranges and research summaries were supplied by the site owner: January–April 2026 in Data Science & System Security (AI-generated misinformation detection), and June–August 2026 in Integrated Systems (Memory for enterprise proactive agent). Research visit end dates were not available, so only documented start dates are shown.
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+- PreScam author list and preprint: https://arxiv.org/abs/2605.12243
+- Agent+P author list and preprint: https://arxiv.org/abs/2510.06042
+- Additional 2026 preprint: https://arxiv.org/abs/2606.16052
+- TNSM publication year and bibliographic details: https://li-beibei.github.io/Publications.html
+- COLM 2026 and AACL 2026 Main Conference acceptance statuses and service labels were supplied by the site owner.
+- Scholar and LinkedIn profile links are retained. Direct profile access was blocked during migration; no unsupported employment history was inferred.
+
+`TBD reviewer` is retained literally as requested; no journal expansion is assumed. The old citation crawler is retained as source under `google_scholar_crawler/`, excluded from the site build; its obsolete scheduled workflow has been removed because the new site does not consume those statistics.
+
+Validation: the site builds successfully; all five main pages and 98 local links/assets were checked, with no missing targets. Browser checks covered desktop/mobile layout, mobile navigation, light/dark mode, publication filtering, and BibTeX expansion.
+
+The al-folio theme and its plugins retain their upstream licenses; the license for the copied template overrides is in `docs/licenses/al-folio-core-LICENSE`. This repository’s existing license is preserved.

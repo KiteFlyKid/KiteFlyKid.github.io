@@ -1,0 +1,33 @@
+h2 { margin-top: 2rem; }
+.experience-entry, .education-entry { margin: 1.5rem 0 2rem; }
+.experience-entry h3, .education-entry h3 { font-size: 1.15rem; font-weight: 500; }
+.service-list li { margin-bottom: 1rem; }
+:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
+@media print {
+  #navbar, footer, .cv-actions, .theme-toggle, #back-to-top, .publications .links, .publications .hidden { display: none !important; }
+  body { padding: 0 !important; background: white !important; color: black !important; }
+  .container { max-width: none !important; margin: 0 !important; }
+  a { color: black !important; }
+  .publications li, .education-entry, .experience-entry { break-inside: avoid; }
+}
+
+/* Original paper figures alongside citations, with full-size links. */
+.publications .publication-preview .badge { margin-bottom: .6rem; }
+.publications .publication-figure-link { display: block; }
+.publications .publication-figure-link .preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  padding: .35rem;
+  background: #fff;
+  border: 1px solid var(--global-divider-color);
+}
+@media (max-width: 575px) {
+  .publications .has-preview .publication-preview { max-width: 280px; margin-bottom: 1rem; }
+}
+@media print {
+  .publications .publication-figure-link .preview { max-height: 110px; }
+}
+[id] { scroll-margin-top: 5rem; }

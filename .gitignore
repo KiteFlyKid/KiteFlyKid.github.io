@@ -1,3 +1,9 @@
 _site/
-push.sh
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+.idea/
 .DS_Store
+push.sh
