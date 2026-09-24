@@ -22,7 +22,10 @@ latest_posts:
 <span id="about-me"></span>
 I am **Shang Ma**, a PhD student in Computer Science and Engineering at the **University of Notre Dame**, advised by Prof. [Yanfang (Fanny) Ye](https://yes-lab.org/). I collaborate with Prof. [Xusheng Xiao](https://xusheng-xiao.github.io/) and [my lab mates](https://yes-lab.org/students.html).
 
-My research combines **program analysis and artificial intelligence** to address challenges in **mobile security, UI automation, and scam and fraud detection**. I am interested in making intelligent systems more reliable and understanding how online scams manipulate and harm people.
+My research focuses on building **structured AI to understand and defend against cyber fraud**. I ground AI in **graphs, code semantics, and human psychology** to analyze digital threats and support safer interactions for people and AI agents. My work spans two connected directions:
+
+- **App and AI Agent Security:** Ad Fraud Detection ([NDSS ’25](https://www.ndss-symposium.org/ndss-paper/careful-about-what-app-promotion-ads-recommend-detecting-and-explaining-malware-promotion-via-app-promotion-graph/)), UI Agents for Software Testing ([arXiv](https://arxiv.org/abs/2604.03561), [AACL ’26](https://arxiv.org/abs/2510.06042)), UI Agent Security ([TAISAP](https://doi.org/10.1145/3807953)).
+- **Online Scam Understanding and Defense:** Psychological Understanding ([EMNLP’25](https://aclanthology.org/2025.findings-emnlp.675/), [arXiv](https://arxiv.org/abs/2606.16052)), Real-Time Detection ([COLM ’26](https://arxiv.org/abs/2605.12243)), Timely Intervention ([arXiv](https://arxiv.org/abs/2606.16052)).
 
 <span id="-educations"></span>
 I completed my undergraduate studies at **Wuyuzhang Honors College, Sichuan University**. Outside research, I enjoy road trips, going to the gym, and exploring history and military geography.
