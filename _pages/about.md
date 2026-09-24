@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>University of Notre Dame</p>
     <p>South Bend, Indiana</p>
-selected_papers: true
+selected_papers: false
 social: true
 announcements:
   enabled: false
@@ -26,11 +26,6 @@ My research focuses on building **structured AI to understand and defend against
 
 - **App and AI Agent Security:** Ad Fraud Detection ([NDSS ’25](https://www.ndss-symposium.org/ndss-paper/careful-about-what-app-promotion-ads-recommend-detecting-and-explaining-malware-promotion-via-app-promotion-graph/)), UI Agents for Software Testing ([arXiv](https://arxiv.org/abs/2604.03561), [AACL ’26](https://arxiv.org/abs/2510.06042)), UI Agent Security ([TAISAP](https://doi.org/10.1145/3807953)).
 - **Online Scam Understanding and Defense:** Psychological Understanding ([EMNLP’25](https://aclanthology.org/2025.findings-emnlp.675/), [arXiv](https://arxiv.org/abs/2606.16052)), Real-Time Detection ([COLM ’26](https://arxiv.org/abs/2605.12243)), Timely Intervention ([arXiv](https://arxiv.org/abs/2606.16052)).
-
-<span id="-educations"></span>
-I completed my undergraduate studies at **Wuyuzhang Honors College, Sichuan University**. Outside research, I enjoy road trips, going to the gym, and exploring history and military geography.
-
-[Google Scholar](https://scholar.google.com/citations?user=kF1a5fqkO_EC) · [LinkedIn](https://www.linkedin.com/in/shang-ma-891898255/) · [Email](mailto:sma5@nd.edu) · [CV]({{ '/cv/' | relative_url }})
 
 ## news
 
@@ -51,3 +46,14 @@ I completed my undergraduate studies at **Wuyuzhang Honors College, Sichuan Univ
 {% include experience.liquid %}
 
 <span id="-publications"></span>
+
+<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a></h2>
+
+{% include selected_papers.liquid %}
+
+---
+
+<span id="-educations"></span>
+I completed my undergraduate studies at **Wuyuzhang Honors College, Sichuan University**. Outside research, I enjoy road trips, going to the gym, and exploring history and military geography.
+
+[Google Scholar](https://scholar.google.com/citations?user=kF1a5fqkO_EC) · [LinkedIn](https://www.linkedin.com/in/shang-ma-891898255/) · [Email](mailto:sma5@nd.edu) · [CV]({{ '/cv/' | relative_url }})
