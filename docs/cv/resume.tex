@@ -1,0 +1,124 @@
+% Shang Ma -- academic CV. Compile with pdfLaTeX or Tectonic.
+% Updated from shangma.org source on September 24, 2026.
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.75in,top=0.62in,bottom=0.65in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{titlesec,enumitem,tabularx,fontawesome5,xcolor,fancyhdr}
+\usepackage[colorlinks=true,urlcolor=black,linkcolor=black,pdftitle={Shang Ma - Curriculum Vitae},pdfauthor={Shang Ma}]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{2pt}\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{5pt}
+\setlist[itemize]{label=$\circ$,leftmargin=12pt,itemsep=1pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+\setlist[enumerate]{label={[\arabic*]},ref=\arabic*,leftmargin=23pt,itemsep=4pt,topsep=3pt,parsep=0pt,partopsep=0pt}
+\newenvironment{sectionbody}{\begin{list}{}{\setlength{\leftmargin}{12pt}\setlength{\rightmargin}{0pt}\setlength{\topsep}{0pt}\setlength{\partopsep}{0pt}\setlength{\parsep}{0pt}\setlength{\itemsep}{0pt}}\item[]}{\end{list}}
+\newcommand{\entry}[4]{\begin{tabularx}{\linewidth}{@{}Xr@{}}\textbf{#1}&\textit{#2}\\\textit{#3}&\textit{#4}\end{tabularx}}
+\newcommand{\role}[2]{\textit{#1}\hfill\textit{#2}\par}
+\newcommand{\me}{\textbf{S. Ma}}
+\begin{document}
+\begin{flushright}\small\color{gray}\textit{Last updated in Sept. 2026}\end{flushright}
+\vspace{-17pt}
+\begin{center}
+{\fontsize{24}{28}\selectfont\bfseries Shang Ma}\\[6pt]
+\normalsize
+\href{mailto:sma5@nd.edu}{\faEnvelope\ sma5@nd.edu}\quad
+\faPhone\ +1 574 339 9811\quad
+\href{https://shangma.org}{\faLink\ Homepage}\quad
+\href{https://www.linkedin.com/in/shang-ma-891898255/}{\faLinkedinIn\ LinkedIn}\quad
+\href{https://github.com/KiteFlyKid}{\faGithub\ GitHub}\quad
+\href{https://scholar.google.com/citations?user=kF1a5fqkO_EC}{\faGraduationCap\ Scholar}
+\end{center}
+\vspace{-9pt}
+\section{Research Directions}
+\begin{sectionbody}
+My research focuses on building \textbf{structured AI to understand and defend against cyber fraud}. I ground AI in graphs, code semantics, and human psychology to analyze digital threats and support safer interactions for people and AI agents. My work spans two connected directions:
+\begin{itemize}\raggedright
+\item \textbf{App and AI Agent Security:} Ad fraud detection~[\ref{pub:adgpe}]; UI agents for software testing~[\ref{pub:agentp}, \ref{pub:adwise}]; \mbox{UI agent security~[\ref{pub:fineprint}]}.
+\item \textbf{Online Scam Understanding and Defense:} Psychological understanding~[\ref{pub:scenarios}, \ref{pub:psyscam}]; real-time detection~[\ref{pub:prescam}]; \mbox{timely intervention~[\ref{pub:scenarios}]}.
+\end{itemize}
+\end{sectionbody}
+
+\section{Professional Experience}
+\begin{sectionbody}
+\entry{NEC Laboratories America}{Princeton, NJ}{Research Intern -- Integrated Systems}{Jun. 2026 -- Aug. 2026}
+\textit{Mentor: Biplob Debnath}\par
+\begin{itemize}
+\item Research on memory for proactive LLM agents. Developed ProMem, a hierarchical memory framework with intent-aware retrieval for timely intent detection and context-aware task execution.
+\end{itemize}
+\role{Research Intern -- Data Science \& System Security}{Jan. 2026 -- Apr. 2026}
+\textit{Mentor: Wei Cheng}\par
+\begin{itemize}
+\item Research on generalizable AI-generated image detection. Formulated detection as one-class out-of-distribution learning with information bottleneck regularization to suppress spurious generator-specific features.
+\end{itemize}
+\vspace{3pt}
+\entry{Charm Security}{Remote}{Research Collaborator}{Jun. 2025 -- Present}
+\begin{itemize}\item Agentic AI to prevent and resolve scams and fraud in real time.\end{itemize}
+\end{sectionbody}
+
+\section{Publications}
+\begin{sectionbody}
+\textsuperscript{*} Equal contribution. Full publication list: \href{https://scholar.google.com/citations?user=kF1a5fqkO_EC}{Google Scholar}.
+\begin{enumerate}
+\interlinepenalty=10000
+\item\label{pub:prescam} W. Sun\textsuperscript{*}, \me\textsuperscript{*}, Y. Li, T. Ma, Z. Wang, C. Nelson, X. Xiao, Y. Ye.
+\href{https://arxiv.org/abs/2605.12243}{PreScam: A Benchmark for Predicting Scam Progression from Early Conversations.}
+\textit{Conference on Language Modeling (COLM)}, 2026.
+\item\label{pub:agentp} \me, X. Xiao, Y. Ye.
+\href{https://arxiv.org/abs/2510.06042}{Agent+P: Guiding UI Agents via Symbolic Planning.}
+\textit{AACL Main Conference}, 2026.
+\item\label{pub:fineprint} C. Chen, Z. Zhang, B. Guo, \me, I. Khalilov, S. A. Gebreegziabher, et al.
+\href{https://doi.org/10.1145/3807953}{The Obvious Invisible Threat: Vulnerabilities of LLM-Powered GUI Agents to Adversarial UI Manipulations in Web Interaction Tasks.}
+\textit{ACM Transactions on AI Security and Privacy (TAISAP)}, 2026.
+\item\label{pub:scenarios} \me, C. Yanai, A. Ben, Z. Liu, Y. Ye, X. Xiao.
+\href{https://arxiv.org/abs/2606.16052}{The Anatomy of Scam Scenarios: Large-Scale Characterization and Conversation-Aware Detection.}
+\textit{arXiv:2606.16052}, 2026.
+\item\label{pub:adwise} \me, W. Cheng, Y. Ye, X. Xiao.
+\href{https://arxiv.org/abs/2604.03561}{From UI to Code: Mobile Ads Detection via LLM-Unified Static-Dynamic Analysis.}
+\textit{arXiv:2604.03561}, 2026.
+\item\label{pub:psyscam} \me, T. Ma, J. Liu, W. Song, Z. Liang, X. Xiao, Y. Ye.
+\href{https://aclanthology.org/2025.findings-emnlp.675/}{PsyScam: A Benchmark for Psychological Techniques in Real-World Scams.}
+\textit{Findings of EMNLP}, 2025.
+\item\label{pub:adgpe} \me\textsuperscript{*}, C. Chen\textsuperscript{*}, S. Yang, S. Hou, T. J.-J. Li, X. Xiao, T. Xie, Y. Ye.
+\href{https://www.ndss-symposium.org/ndss-paper/careful-about-what-app-promotion-ads-recommend-detecting-and-explaining-malware-promotion-via-app-promotion-graph/}{Careful About What App Promotion Ads Recommend! Detecting and Explaining Malware Promotion via App Promotion Graph.}
+\textit{Network and Distributed System Security (NDSS) Symposium}, 2025.
+\item\label{pub:symbolic} Z. Ouyang, C. Zhang, S. Hou, \me, C. Chen, T. Li, X. Xiao, C. Zhang, Y. Ye.
+\href{https://link.springer.com/chapter/10.1007/978-3-031-70381-2_12}{Symbolic Prompt Tuning Completes the App Promotion Graph.}
+\textit{ECML PKDD}, 2024.
+\item\label{pub:prompt} Z. Ouyang, S. Hou, \me, C. Chen, C. Zhang, T. Li, X. Xiao, C. Zhang, Y. Ye.
+\href{https://openreview.net/forum?id=JTRErQb2oN}{Prompt Learning Unlocked for App Promotion in the Wild.}
+\textit{NeurIPS Workshop: New Frontiers in Graph Learning}, 2023.
+\item\label{pub:federated} B. Li, \me, R. Deng, K.-K. R. Choo, J. Yang.
+Federated Anomaly Detection on System Logs for the Internet of Things: A Customizable and Communication-Efficient Approach.
+\textit{IEEE Transactions on Network and Service Management}, 19(2):1705--1716, 2022.
+\item\label{pub:flphish} B. Li, P. Wang, H. Huang, \me, Y. Jiang.
+FlPhish: Reputation-based Phishing Byzantine Defense in Ensemble Federated Learning.
+\textit{IEEE Symposium on Computers and Communications (ISCC)}, 2021. Best Paper Award.
+\end{enumerate}
+\end{sectionbody}
+
+\begin{samepage}
+\section{Education}
+\begin{sectionbody}
+\entry{University of Notre Dame}{Notre Dame, IN}{Ph.D. in Computer Science and Engineering}{Sept. 2022 -- May 2027 (expected)}
+\begin{itemize}
+\item Advisor: Yanfang (Fanny) Ye. Research collaboration with Xusheng Xiao.
+\end{itemize}
+\vspace{3pt}
+\entry{Sichuan University}{Chengdu, China}{B.Eng. in Cybersecurity}{Sept. 2018 -- Jun. 2022}
+\begin{itemize}\item Wuyuzhang Honors College. GPA: 3.88/4.0.\end{itemize}
+\end{sectionbody}
+
+\end{samepage}
+\section{Service}
+\begin{sectionbody}
+\begin{itemize}
+\item \textbf{Conference / Workshop Reviewer:} ICLR 2026; CCS 2026 Demo; HAIPS@COLM.
+\item \textbf{Journal Reviewer:} Software Testing, Verification and Reliability; ACM Transactions on the Web.
+\item \textbf{Teaching Assistant:} Theory of Computing (CSE-30151-01), University of Notre Dame, Fall 2025.
+\item \textbf{Research Mentor:} Notre Dame Summer Undergraduate Research.
+\end{itemize}
+\end{sectionbody}
+\end{document}

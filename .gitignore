@@ -7,3 +7,5 @@ vendor/
 .idea/
 .DS_Store
 push.sh
+output/
+overleaf-cv/
