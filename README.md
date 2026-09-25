@@ -18,11 +18,11 @@ Visit http://127.0.0.1:4000. `bundle exec jekyll build` creates `_site/`.
 
 - `_pages/about.md`: biography, news, and homepage.
 - `_bibliography/papers.bib`: all publications. Set `selected = {true}` to feature a paper on the homepage. Acceptance status belongs in the venue field until final proceedings metadata is available.
-- `_includes/experience.liquid`: both NEC Labs internships, shared by the homepage and CV.
-- `_includes/education.liquid`: education, shared by the education page and CV.
-- `_includes/services.liquid`: services, shared by the services page and CV.
-- `_pages/cv.md`: CV page with a download link to the reviewed PDF and a printable web version.
-- `assets/pdf/Shang_Ma_CV.pdf`: current CV PDF.
+- `_includes/experience.liquid`: both NEC Labs internships on the homepage.
+- `_includes/education.liquid`: education page content.
+- `_includes/services.liquid`: services page content.
+- `_data/navigation.yml`: direct CV download in the top navigation.
+- `assets/pdf/Shang_Ma_CV.pdf`: supplied CV PDF, downloaded directly from the navigation and homepage links.
 - `docs/cv/resume.tex`: editable CV source; see `docs/cv/README.md` for build instructions.
 - `_data/socials.yml`: email and profile links.
 - `_config.yml`: site settings and canonical URL.

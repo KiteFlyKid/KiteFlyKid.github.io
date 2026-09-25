@@ -56,4 +56,4 @@ My research focuses on building **structured AI to understand and defend against
 <span id="-educations"></span>
 I completed my undergraduate studies at **Wuyuzhang Honors College, Sichuan University**. Outside research, I enjoy road trips, going to the gym, and exploring history and military geography.
 
-[Google Scholar](https://scholar.google.com/citations?user=kF1a5fqkO_EC) · [LinkedIn](https://www.linkedin.com/in/shang-ma-891898255/) · [Email](mailto:sma5@nd.edu) · [CV]({{ '/cv/' | relative_url }})
+[Google Scholar](https://scholar.google.com/citations?user=kF1a5fqkO_EC) · [LinkedIn](https://www.linkedin.com/in/shang-ma-891898255/) · [Email](mailto:sma5@nd.edu) · <a href="{{ '/assets/pdf/Shang_Ma_CV.pdf' | relative_url }}" download="Shang_Ma_CV.pdf">CV</a>
