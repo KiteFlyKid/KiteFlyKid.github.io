@@ -27,6 +27,8 @@ My research focuses on building **structured AI to understand and defend against
 - **App and AI Agent Security:** Ad Fraud Detection ([NDSS ’25](https://www.ndss-symposium.org/ndss-paper/careful-about-what-app-promotion-ads-recommend-detecting-and-explaining-malware-promotion-via-app-promotion-graph/)), UI Agents for Software Testing ([arXiv](https://arxiv.org/abs/2604.03561), [AACL ’26](https://arxiv.org/abs/2510.06042)), UI Agent Security ([TAISAP](https://doi.org/10.1145/3807953)).
 - **Online Scam Understanding and Defense:** Psychological Understanding ([EMNLP’25](https://aclanthology.org/2025.findings-emnlp.675/), [arXiv](https://arxiv.org/abs/2606.16052)), Real-Time Detection ([COLM ’26](https://arxiv.org/abs/2605.12243)), Timely Intervention ([arXiv](https://arxiv.org/abs/2606.16052)).
 
+{% include scam_research.liquid compact=true %}
+
 ## news
 
 <span id="-news"></span>

@@ -42,3 +42,74 @@ h2 { margin-top: 2rem; }
   transform: scale(1.9);
   transform-origin: 57% 58%;
 }
+
+/* Shared scam-research preview and collection; uses the site's light/dark palette. */
+.scam-research { clear: both; --scam-muted-color: #656b75; }
+html[data-theme="dark"] .scam-research { --scam-muted-color: #b0b5bd; }
+.scam-research-overview { margin-top: 2rem; }
+.scam-research-heading, .scam-research-item-heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .4rem .65rem;
+}
+.scam-research-heading { justify-content: space-between; }
+.scam-research-heading h2 { margin: 0; }
+.scam-research-browse { font-size: .9rem; white-space: nowrap; }
+.scam-research-intro { margin: .6rem 0 1.25rem; }
+.scam-research-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.75rem;
+}
+.scam-research-group h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 .25rem;
+}
+.scam-research-list { list-style: none; padding: 0; margin: 0; }
+.scam-research-list > li {
+  padding: .75rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.scam-research-item-heading > a { font-weight: 500; }
+.scam-research-list p {
+  color: var(--scam-muted-color);
+  font-size: .9rem;
+  line-height: 1.5;
+  margin: .25rem 0 0;
+}
+.scam-research-status {
+  display: inline-block;
+  flex-shrink: 0;
+  font-size: .7rem;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: .05rem .4rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: .25rem;
+  color: var(--scam-muted-color);
+}
+.scam-research-resources {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .35rem .7rem;
+  margin: 1rem 0 0;
+  font-size: .9rem;
+}
+.scam-research-resources > span:first-child { color: var(--scam-muted-color); }
+.scam-research-jump-links { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin: 1.5rem 0; }
+.scam-research-entry { padding: 1rem 0; border-bottom: 1px solid var(--global-divider-color); }
+.scam-research-entry h3 { margin: 0; font-size: 1.15rem; font-weight: 500; }
+.scam-research-entry p { margin: .6rem 0 0; }
+.scam-research-entry ul { margin: .65rem 0 0; }
+.scam-research-reference { display: inline-block; margin-top: .6rem; font-size: .9rem; }
+.scam-research-back { margin-top: 2rem; }
+@media (max-width: 640px) {
+  .scam-research-columns { grid-template-columns: 1fr; gap: 1.25rem; }
+}
+@media print {
+  .scam-research-entry, .scam-research-list > li { break-inside: avoid; }
+  .scam-research-browse, .scam-research-jump-links, .scam-research-back { display: none; }
+}

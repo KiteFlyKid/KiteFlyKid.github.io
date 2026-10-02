@@ -1,0 +1,37 @@
+---
+layout: default
+title: "I encountered a scam. What next?"
+permalink: /scams/what-next/
+nav: false
+---
+
+<div class="scam-tree" id="scam-tree">
+  <div class="tree-topline">
+    <a href="{{ '/scams/' | relative_url }}#what-next">&larr; notes &amp; tools</a>
+    <span>what next?</span>
+  </div>
+  <div id="scam-tree-app" hidden>
+    <div id="scam-tree-stages"></div>
+    <button class="tree-reset" id="scam-tree-reset" type="button" hidden>Start again &crarr;</button>
+    <p class="sr-only" id="scam-tree-status" role="status" aria-live="polite"></p>
+  </div>
+  <section id="scam-tree-fallback">
+    <h1>Did money go out?</h1>
+    <p><a href="https://consumer.ftc.gov/articles/what-do-if-you-were-scammed">Yes → Contact your bank or payment provider now.</a></p>
+    <p><a href="https://consumer.ftc.gov/articles/how-recover-your-hacked-email-or-social-media-account">Shared a password? → Secure the account.</a></p>
+    <p><a href="https://www.identitytheft.gov/databreach">Shared personal information? → Find the right recovery steps.</a></p>
+    <p><a href="https://consumer.ftc.gov/articles/malware-how-protect-against-detect-and-remove-it">Gave device access? → Use a trusted device and check for malware.</a></p>
+    <p>Enable JavaScript to unfold the tree.</p>
+  </section>
+  <div class="tree-footnote">
+    <span>US guidance · your answers aren't saved</span>
+    <details>
+      <summary>About &amp; sources</summary>
+      <p>Based on <a href="https://consumer.ftc.gov/articles/what-do-if-you-were-scammed">FTC</a>, <a href="https://www.consumerfinance.gov/ask-cfpb/who-do-i-contact-for-help-with-a-scam-or-fraud-en-1777/">CFPB</a>, and <a href="https://www.ic3.gov/Home/FAQ">FBI</a> guidance, checked September 25, 2026. Each branch links to its sources. This is a starting point; getting money back isn't guaranteed.</p>
+      <p>In immediate danger? Call 911 in the US or your local emergency number. Outside the US, use your local bank and consumer-protection agency.</p>
+    </details>
+  </div>
+</div>
+<link rel="stylesheet" href="{{ '/assets/css/scam-guide.css' | relative_url }}">
+<script src="{{ '/assets/js/scam-guide-core.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/scam-guide.js' | relative_url }}" defer></script>
