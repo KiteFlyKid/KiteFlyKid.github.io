@@ -1,66 +1,36 @@
 {% assign scam_research = site.data.scam_research %}
 {% if include.compact %}
-<section class="scam-research scam-research-overview" aria-labelledby="scam-research-title">
-  <div class="scam-research-heading">
-    <h2 id="scam-research-title">{{ scam_research.title | escape }}</h2>
-    <a class="scam-research-browse" href="{{ '/scams/' | relative_url }}">View all <span aria-hidden="true">&rarr;</span><span class="sr-only"> notes, tools, and resources</span></a>
-  </div>
-  <p class="scam-research-intro">{{ scam_research.intro | escape }}</p>
-  <div class="scam-research-columns">
-    {% assign groups = 'notes,tools' | split: ',' %}
-    {% for group in groups %}
-      <div class="scam-research-group">
-        <h3>{% if group == 'notes' %}Notes &amp; guides{% else %}Tools &amp; demos{% endif %}</h3>
-        <ul class="scam-research-list">
-          {% for item in scam_research[group] %}
-            <li>
-              <div class="scam-research-item-heading">
-                <a href="{% if item.url %}{{ item.url | relative_url }}{% else %}{{ '/scams/' | relative_url }}#{{ item.id }}{% endif %}">{{ item.title | escape }}</a>
-                {% if item.status %}<span class="scam-research-status">{{ item.status | escape }}</span>{% endif %}
-              </div>
-              <p>{{ item.summary | escape }}</p>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
-  </div>
-  <p class="scam-research-resources">
-    <span>External resources</span>
-    {% for resource in scam_research.resources %}
-      <a href="{{ resource.url | escape }}">{{ resource.title | escape }}</a>{% unless forloop.last %}<span aria-hidden="true">&middot;</span>{% endunless %}
-    {% endfor %}
-  </p>
-</section>
+<p id="scam-research-title">See notes and tools we built for scams: <a href="{{ '/scams/' | relative_url }}#scams-and-fraud">Scam vs Fraud</a>, <a href="{{ '/scams/' | relative_url }}#scam-trends">Scam Daily</a>, <a href="{{ '/scams/' | relative_url }}#us-scam-map">US Scam Map</a> &rarr; <a href="{{ '/scams/' | relative_url }}">see all</a></p>
 {% else %}
 <div class="scam-research scam-research-collection">
   <p>{{ scam_research.intro | escape }} The entries below outline the writing and tools I am developing.</p>
-  <nav class="scam-research-jump-links" aria-label="Scam research sections">
-    <a href="#notes">Notes &amp; guides</a>
-    <a href="#tools">Tools &amp; demos</a>
-    <a href="#resources">External resources</a>
-  </nav>
   {% assign groups = 'notes,tools' | split: ',' %}
   {% for group in groups %}
     <section aria-labelledby="{{ group }}">
       <h2 id="{{ group }}">{% if group == 'notes' %}Notes &amp; guides{% else %}Tools &amp; demos{% endif %}</h2>
       {% for item in scam_research[group] %}
         <article class="scam-research-entry" aria-labelledby="{{ item.id }}">
-          <div class="scam-research-item-heading">
-            <h3 id="{{ item.id }}">{{ item.title | escape }}</h3>
-            {% if item.status %}<span class="scam-research-status">{{ item.status | escape }}</span>{% endif %}
-          </div>
-          <p>{{ item.description | escape }}</p>
-          {% if item.features %}
-            <ul>
-              {% for feature in item.features %}<li>{{ feature | escape }}</li>{% endfor %}
-            </ul>
-          {% endif %}
           {% if item.url %}
-            <a class="scam-research-reference" href="{{ item.url | relative_url }}">Open guide <span aria-hidden="true">&rarr;</span></a>
+            <a class="scam-research-entry-link" href="{{ item.url | relative_url }}">
+          {% elsif item.reference_url %}
+            <a class="scam-research-entry-link" href="{{ item.reference_url | escape }}">
+          {% else %}
+            <div class="scam-research-entry-body">
           {% endif %}
-          {% if item.reference_url %}
-            <a class="scam-research-reference" href="{{ item.reference_url | escape }}">{{ item.reference_label | escape }} <span aria-hidden="true">&nearr;</span></a>
+            <div class="scam-research-item-heading">
+              <h3 id="{{ item.id }}">{{ item.title | escape }}</h3>
+              {% if item.status %}<span class="scam-research-status">{{ item.status | escape }}</span>{% endif %}
+            </div>
+            <p>{{ item.description | escape }}</p>
+            {% if item.features %}
+              <ul>
+                {% for feature in item.features %}<li>{{ feature | escape }}</li>{% endfor %}
+              </ul>
+            {% endif %}
+          {% if item.url or item.reference_url %}
+            </a>
+          {% else %}
+            </div>
           {% endif %}
         </article>
       {% endfor %}

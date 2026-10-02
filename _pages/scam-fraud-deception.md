@@ -1,4 +1,9 @@
-# Fraud, Scam, Deception
+---
+layout: page
+title: "Fraud, Scam, Deception"
+permalink: /scams/fraud-scam-deception/
+nav: false
+---
 
 ## Fraud vs. scam
 

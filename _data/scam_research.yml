@@ -4,13 +4,12 @@ notes:
   - id: scams-and-fraud
     title: "Scams, fraud, and deception"
     kind: Note
-    status: Planned
+    url: /scams/fraud-scam-deception/
     summary: "How I frame the problem, and why the distinctions matter."
     description: "A working map of scams, fraud, and deception: definitions, concrete examples, and ambiguous cases that shape how we study and detect scams."
   - id: what-next
     title: "I encountered a scam. What next?"
     kind: Interactive guide
-    status: Draft
     url: /scams/what-next/
     summary: "A decision guide for responding to a suspected scam."
     description: "An interactive decision guide covering money sent, information or credentials shared, and device access granted. Follow the branches to find your next step, with links to official US resources."
@@ -18,17 +17,15 @@ tools:
   - id: scam-trends
     title: "Scam Daily"
     kind: Tool
-    status: Planned
+    url: /scams/daily/
     summary: "Recent reports, noteworthy incidents, and emerging patterns."
     description: "A tool built on our Better Business Bureau (BBB) scam-report crawler, with daily updates and daily, weekly, and monthly views. It will automatically select and summarize noteworthy reported incidents and recent trends."
   - id: us-scam-map
     title: "Scams across the US"
     kind: Visualization
-    status: Planned
     summary: "Explore reported scams across time and geography."
     description: "A temporal and spatial visualization of different scam types across the United States, with views by location and time period to explore patterns in reported cases."
     reference_url: "https://demo.rshyn.site/"
-    reference_label: "Reference demo"
 resources:
   - title: Scamwise
     url: "https://scamwise.com/about"

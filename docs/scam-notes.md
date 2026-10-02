@@ -4,12 +4,13 @@ The homepage section and collection share one content file. Work was developed o
 
 ## Content
 
-- `_data/scam_research.yml` is the shared content source for the homepage preview and `/scams/` collection.
-- `_includes/scam_research.liquid` renders both views. The compact homepage view appears immediately before news.
+- `_data/scam_research.yml` holds the `/scams/` entries and their destinations.
+- `_includes/scam_research.liquid` renders the homepage paragraph and `/scams/` collection.
 - `_pages/scams.md` defines the collection page.
+- `_pages/scam-fraud-deception.md` is the editable, published article.
 - Styles are scoped under `.scam-research` in `assets/css/custom.css`.
 
-The interactive scam-response guide is implemented as a `Draft`; other notes and tools retain their `Planned` status. Homepage titles link to real descriptions on the collection page. The supplied US map URL is labeled as a reference demo. Scam Daily and the US visualization remain placeholders; neither tool is implemented here. The article in `docs/notes/fraud-scam-deception.md` remains an editable draft and is excluded from the published site.
+The interactive scam-response guide and the fraud/scam article have their own pages. The US map card links to its existing demo. Scam Daily has a placeholder page while the tool is being built. Each card is clickable across the whole block.
 
 Edit the shared data while developing the content. When an article or tool is ready, replace its description, update its status, and add a `url` to the shared data. The project descriptions are drafts, not claims that the tools are already available.
 
