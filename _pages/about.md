@@ -9,8 +9,9 @@ profile:
   image: shang-ma.jpg
   image_circular: false
   more_info: >
-    <p>University of Notre Dame</p>
-    <p>South Bend, Indiana</p>
+    <aside class="job-market-note" aria-label="Job market status">
+      <p><strong>I am on the job market, open to industry roles and postdoc positions.</strong> <a href="mailto:sma5@nd.edu">Email me</a>, <a href="/assets/pdf/Shang_Ma_CV.pdf" download="Shang_Ma_CV.pdf">download CV</a>.</p>
+    </aside>
 selected_papers: false
 social: true
 announcements:
@@ -21,15 +22,6 @@ latest_posts:
 
 <span id="about-me"></span>
 I am **Shang Ma**, a PhD student in Computer Science and Engineering at the **University of Notre Dame**, advised by Prof. [Yanfang (Fanny) Ye](https://yes-lab.org/). I collaborate with Prof. [Xusheng Xiao](https://xusheng-xiao.github.io/) and [my lab mates](https://yes-lab.org/students.html).
-
-<aside class="job-market-note" aria-label="Job market status">
-  <p class="job-market-title">On the job market</p>
-  <p>I welcome conversations about research opportunities in AI security, cyber fraud defense, and trustworthy AI agents.</p>
-  <div class="job-market-actions">
-    <a href="{{ '/assets/pdf/Shang_Ma_CV.pdf' | relative_url }}" download="Shang_Ma_CV.pdf">Download CV</a>
-    <a href="mailto:sma5@nd.edu">Email me</a>
-  </div>
-</aside>
 
 My research focuses on building **structured AI to understand and defend against cyber fraud**. I ground AI in **graphs, code semantics, and human psychology** to analyze digital threats and support safer interactions for people and AI agents. My work spans two connected directions:
 
