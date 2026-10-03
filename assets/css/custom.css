@@ -1,4 +1,16 @@
 h2 { margin-top: 2rem; }
+.job-market-note {
+  margin: 1.25rem 0 1.5rem;
+  padding: 1rem 1.2rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: .35rem;
+}
+.job-market-note p { margin: 0; }
+.job-market-note .job-market-title { font-weight: 600; margin-bottom: .35rem; }
+.job-market-actions { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; margin-top: .7rem; }
+.job-market-actions a { font-weight: 500; }
 .experience-entry, .education-entry { margin: 1.5rem 0 2rem; }
 .experience-entry h3, .education-entry h3 { font-size: 1.15rem; font-weight: 500; }
 .service-list li { margin-bottom: 1rem; }
