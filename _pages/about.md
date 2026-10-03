@@ -53,6 +53,12 @@ My research focuses on building **structured AI to understand and defend against
 
 {% include selected_papers.liquid %}
 
+## Recent Preprints
+
+<div class="publications">
+{% bibliography --group_by none --query @*[recent_preprint=true]* %}
+</div>
+
 ---
 
 <span id="-educations"></span>
