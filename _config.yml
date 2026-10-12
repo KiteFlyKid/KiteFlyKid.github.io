@@ -47,6 +47,9 @@ al_folio:
     auto_apply_safe_fixes: false
 navbar_fixed: true
 footer_fixed: false
+# Paste the d= value from the MapMyVisitors map embed generated for shangma.org.
+# An empty value hides the map until the site's widget has been created.
+mapmyvisitors_id: 'Z73gkSvmFP8qWI-CA7ABBGCwPtcYLqZB8GqNCZz2XCw'
 search_enabled: false
 socials_in_search: true
 posts_in_search: true

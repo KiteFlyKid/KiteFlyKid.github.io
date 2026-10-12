@@ -27,7 +27,7 @@ Visit http://127.0.0.1:4000. `bundle exec jekyll build` creates `_site/`.
 - `_data/socials.yml`: email and profile links.
 - `_config.yml`: site settings and canonical URL.
 - `assets/img/publication_preview/`: original figures for selected papers; sources are recorded in `docs/publication-figures.md`.
-- `_includes/footer.liquid`: the visitor map shown on every page. It uses the free whos.amung.us map widget; its counters start when the widget is published and depend on that provider.
+- `_includes/footer.liquid`: the MapMyVisitors map shown on every page once `mapmyvisitors_id` is set in `_config.yml`. Create a map widget for `https://shangma.org/` in your MapMyVisitors account and copy the `d=` value from its embed URL into that setting. The map is centered, up to 500px wide, and uses `w=a` to adapt to its container. Visits start recording when the configured widget is published; previous providers' visits are not imported.
 - `_layouts/bib.liquid`: al-folio bibliography template with figure previews and full-size image links.
 - `assets/css/custom.css`: small site-specific and print adjustments.
 - `_includes/head.liquid`: upstream head template with one extra stylesheet; compare against upstream when upgrading the theme.
