@@ -15,20 +15,21 @@ h2 { margin-top: 2rem; }
 .visitor-map { margin: 0 0 1.25rem; text-align: center; }
 .visitor-map h2 { margin: 0 0 .5rem; font-size: .9rem; font-weight: 500; }
 .visitor-map-widget {
+  position: relative;
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
-}
-.visitor-map-widget #mapmyvisitors-widget {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-}
-.visitor-map-widget .mapmyvisitors-map {
-  width: 100% !important;
-  height: auto !important;
   aspect-ratio: 2.04 / 1;
-  background-size: 100% 100%;
+  padding-bottom: 32px;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+.visitor-map-widget iframe {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 .experience-entry, .education-entry { margin: 1.5rem 0 2rem; }
 .experience-entry h3, .education-entry h3 { font-size: 1.15rem; font-weight: 500; }
