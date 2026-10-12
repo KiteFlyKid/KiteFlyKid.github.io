@@ -207,4 +207,4 @@
   {% include plugins/al_marimo_styles.liquid %}
 {% endif %}
 
-<link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url | bust_file_cache }}">
