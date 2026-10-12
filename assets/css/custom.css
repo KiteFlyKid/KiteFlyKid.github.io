@@ -12,6 +12,9 @@ h2 { margin-top: 2rem; }
 }
 .profile .more-info .job-market-note p { display: block; margin: 0; }
 .profile .more-info .job-market-note a { font-weight: 600; }
+.visitor-map { margin: 0 0 1.25rem; text-align: center; }
+.visitor-map h2 { margin: 0 0 .5rem; font-size: .9rem; font-weight: 500; }
+.visitor-map-widget { width: 250px; min-height: 125px; margin: 0 auto; }
 .experience-entry, .education-entry { margin: 1.5rem 0 2rem; }
 .experience-entry h3, .education-entry h3 { font-size: 1.15rem; font-weight: 500; }
 .service-list li { margin-bottom: 1rem; }

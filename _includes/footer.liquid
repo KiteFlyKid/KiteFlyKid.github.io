@@ -1,0 +1,37 @@
+{% capture footer_contents %}
+  &copy; Copyright {{ site.time | date: '%Y' }}
+  {{ site.first_name }}
+  {{ site.middle_name }}
+  {{ site.last_name }}. {{ site.footer_text }}
+  {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+  {% endif %}
+  {% if site.last_updated %}
+    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+  {% endif %}
+{% endcapture %}
+
+<footer class="{% if site.footer_fixed %}fixed-bottom{% else %}sticky-bottom mt-5{% endif %}" role="contentinfo">
+  {% unless site.footer_fixed %}
+    {% if site.newsletter.enabled %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    {% endif %}
+  {% endunless %}
+
+  <div class="container{% if site.footer_fixed %} mt-0{% endif %}">
+    {% unless site.footer_fixed %}
+      <section class="visitor-map" aria-label="Map of website visitors">
+        <h2>Visitors</h2>
+        <div class="visitor-map-widget">
+          <script id="_wau___">var _wau = _wau || []; _wau.push(["map", "iopzhjhbib", "___", "250", "125", "night", "cross-pink"]);</script>
+          <script async src="https://waust.at/m.js"></script>
+        </div>
+      </section>
+    {% endunless %}
+    {{ footer_contents }}
+  </div>
+</footer>
