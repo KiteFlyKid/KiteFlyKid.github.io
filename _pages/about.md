@@ -30,19 +30,23 @@ My research focuses on building **structured AI to understand and defend against
 
 {% include scam_research.liquid compact=true %}
 
-## news
+<h2 id="news">news</h2>
 
 <span id="-news"></span>
-- **Sep 2026:** Agent+P accepted to the **AACL 2026 Main Conference**.
-- **Jul 2026:** PreScam accepted to **COLM 2026**.
-- **Jun 2026:** Started a research internship in the **Integrated Systems** department at **NEC Laboratories America, Princeton**, working with [**Biplob Debnath**](https://www.nec-labs.com/research/integrated-systems/people/biplob-debnath/).
-- **Jan 2026:** Started a research internship in the **Data Science & System Security** department at **NEC Laboratories America, Princeton**, working with [**Wei Cheng**](https://www.nec-labs.com/research/data-science-system-security/people/wei-cheng/).
-- **Dec 2025:** Selected for the **Meta Bug Bounty: Abuse Track**.
-- **Aug 2025:** PsyScam accepted to **EMNLP 2025**.
-- **Oct 2024:** Started a research visit to **Curiosity Lab, National University of Singapore**, working with [Zhenkai Liang](https://www.comp.nus.edu.sg/~liangzk/).
-- **Sep 2024:** Our work on detecting malware promotion via app promotion graphs accepted to **NDSS 2025**.
-- **Mar 2024:** Started a research visit to **ASE Lab, Peking University**, working with [Tao Xie](https://taoxiease.github.io/).
-- **Aug 2022:** Began my PhD journey.
+<div class="news-scroll" role="region" aria-labelledby="news" tabindex="0">
+  <ul class="news-list">
+    <li><time datetime="2026-09">Sep 2026</time><span>Agent+P accepted to the <strong>AACL 2026 Main Conference</strong>.</span></li>
+    <li><time datetime="2026-07">Jul 2026</time><span>PreScam accepted to <strong>COLM 2026</strong>.</span></li>
+    <li><time datetime="2026-06">Jun 2026</time><span>Started a research internship in the <strong>Integrated Systems</strong> department at <strong>NEC Laboratories America, Princeton</strong>, working with <a href="https://www.nec-labs.com/research/integrated-systems/people/biplob-debnath/"><strong>Biplob Debnath</strong></a>.</span></li>
+    <li><time datetime="2026-01">Jan 2026</time><span>Started a research internship in the <strong>Data Science &amp; System Security</strong> department at <strong>NEC Laboratories America, Princeton</strong>, working with <a href="https://www.nec-labs.com/research/data-science-system-security/people/wei-cheng/"><strong>Wei Cheng</strong></a>.</span></li>
+    <li><time datetime="2025-12">Dec 2025</time><span>Selected for the <strong>Meta Bug Bounty: Abuse Track</strong>.</span></li>
+    <li><time datetime="2025-08">Aug 2025</time><span>PsyScam accepted to <strong>EMNLP 2025</strong>.</span></li>
+    <li><time datetime="2024-10">Oct 2024</time><span>Started a research visit to <strong>Curiosity Lab, National University of Singapore</strong>, working with <a href="https://www.comp.nus.edu.sg/~liangzk/">Zhenkai Liang</a>.</span></li>
+    <li><time datetime="2024-09">Sep 2024</time><span>Our work on detecting malware promotion via app promotion graphs accepted to <strong>NDSS 2025</strong>.</span></li>
+    <li><time datetime="2024-03">Mar 2024</time><span>Started a research visit to <strong>ASE Lab, Peking University</strong>, working with <a href="https://taoxiease.github.io/">Tao Xie</a>.</span></li>
+    <li><time datetime="2022-08">Aug 2022</time><span>Began my PhD journey.</span></li>
+  </ul>
+</div>
 
 ## experience
 

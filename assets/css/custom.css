@@ -12,25 +12,48 @@ h2 { margin-top: 2rem; }
 }
 .profile .more-info .job-market-note p { display: block; margin: 0; }
 .profile .more-info .job-market-note a { font-weight: 600; }
+#news { clear: both; }
+.news-scroll {
+  max-height: 230px;
+  overflow-y: auto;
+  margin: .6rem 0 0;
+  padding: .35rem .85rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: .25rem;
+  background: var(--global-bg-color);
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-text-color-light) transparent;
+}
+.news-scroll .news-list { list-style: none; margin: 0; padding: 0; }
+.news-scroll .news-list > li {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  gap: .85rem;
+  padding: .5rem 0;
+  margin: 0;
+}
+.news-list time {
+  color: var(--global-text-color-light);
+  font-size: .9rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+@media (max-width: 575px) {
+  .news-scroll .news-list > li { grid-template-columns: 1fr; gap: .15rem; }
+}
 .visitor-map { margin: 0 0 1.25rem; text-align: center; }
 .visitor-map h2 { margin: 0 0 .5rem; font-size: .9rem; font-weight: 500; }
 .visitor-map-widget {
-  position: relative;
   width: 100%;
   max-width: 500px;
-  aspect-ratio: 2.04 / 1;
-  padding-bottom: 32px;
-  box-sizing: content-box;
   margin: 0 auto;
 }
-.visitor-map-widget iframe {
-  position: absolute;
-  inset: 0;
+.visitor-map-widget a,
+.visitor-map-widget img {
   display: block;
   width: 100%;
-  height: 100%;
-  border: 0;
 }
+.visitor-map-widget img { height: auto; }
 .experience-entry, .education-entry { margin: 1.5rem 0 2rem; }
 .experience-entry h3, .education-entry h3 { font-size: 1.15rem; font-weight: 500; }
 .service-list li { margin-bottom: 1rem; }
@@ -41,6 +64,7 @@ h2 { margin-top: 2rem; }
   .container { max-width: none !important; margin: 0 !important; }
   a { color: black !important; }
   .publications li, .education-entry, .experience-entry { break-inside: avoid; }
+  .news-scroll { max-height: none; overflow: visible; border: 0; padding: 0; }
 }
 
 /* Original paper figures alongside citations, with full-size links. */

@@ -16,7 +16,7 @@ Visit http://127.0.0.1:4000. `bundle exec jekyll build` creates `_site/`.
 
 ## Update content
 
-- `_pages/about.md`: biography, news, and homepage.
+- `_pages/about.md`: biography, news, and homepage. News uses a 230px scrolling box with dates in a separate column; all items remain visible when printing.
 - `_bibliography/papers.bib`: all publications. Set `selected = {true}` to feature a paper on the homepage. Acceptance status belongs in the venue field until final proceedings metadata is available.
 - `_includes/experience.liquid`: both NEC Labs internships on the homepage.
 - `_includes/education.liquid`: education page content.
@@ -27,7 +27,7 @@ Visit http://127.0.0.1:4000. `bundle exec jekyll build` creates `_site/`.
 - `_data/socials.yml`: email and profile links.
 - `_config.yml`: site settings and canonical URL.
 - `assets/img/publication_preview/`: original figures for selected papers; sources are recorded in `docs/publication-figures.md`.
-- `_includes/footer.liquid`: the MapMyVisitors map shown on every page once `mapmyvisitors_id` is set in `_config.yml`. Create a map widget for `https://shangma.org/` in your MapMyVisitors account and copy the `d=` value from its embed URL into that setting. The map is centered, up to 500px wide, and uses `w=a` to adapt to its container. `_pages/visitor-map.html` isolates the provider's script in a sandboxed iframe because it requires `eval` for its visitor-data response; the rest of the site's security policy remains unchanged. Visits start recording when the configured widget is published; previous providers' visits are not imported.
+- `_includes/footer.liquid`: the MapMyVisitors image map shown on every page once `mapmyvisitors_id` is set in `_config.yml`. Copy the `d=` value from the provider's image embed into that setting, and set `mapmyvisitors_stats_url` to its statistics link. The map is centered, up to 500px wide, and scales to smaller screens. It loads directly as an image without scripts or an iframe. Visits start recording when the configured widget is published; previous providers' visits are not imported.
 - `_layouts/bib.liquid`: al-folio bibliography template with figure previews and full-size image links.
 - `assets/css/custom.css`: small site-specific and print adjustments.
 - `_includes/head.liquid`: upstream head template with one extra stylesheet; compare against upstream when upgrading the theme.

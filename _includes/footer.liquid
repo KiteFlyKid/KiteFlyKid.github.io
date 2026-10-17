@@ -28,12 +28,13 @@
         <section class="visitor-map" aria-label="Map of website visitors">
           <h2>Visitors</h2>
           <div class="visitor-map-widget">
-            <iframe
-              src="{{ '/visitor-map/' | relative_url }}"
-              title="MapMyVisitors visitor map"
-              sandbox="allow-scripts allow-top-navigation-by-user-activation"
-              referrerpolicy="strict-origin-when-cross-origin"
-            ></iframe>
+            <a href="{{ site.mapmyvisitors_stats_url | escape }}" title="Visit tracker">
+              <img
+                src="https://mapmyvisitors.com/map.png?cl=ffffff&amp;w=500&amp;t=n&amp;d={{ site.mapmyvisitors_id | uri_escape }}"
+                alt="Map showing visitors to Shang Ma's website"
+                width="500"
+              >
+            </a>
           </div>
         </section>
       {% endif %}
