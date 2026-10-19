@@ -7,9 +7,8 @@ From the repository root:
 ```sh
 mkdir -p output/pdf
 tectonic --outdir output/pdf docs/cv/resume.tex
-cp output/pdf/resume.pdf assets/pdf/Shang_Ma_CV.pdf
 ```
 
-Review the resulting PDF before publishing it. The website links to `assets/pdf/Shang_Ma_CV.pdf` directly from the top navigation and homepage. The current published PDF was supplied separately; this LaTeX source may differ from it.
+The generated PDF stays in `output/pdf/`, which is ignored by Git and excluded from the website. CV downloads have been removed from the site. The former public path `assets/pdf/Shang_Ma_CV.pdf` is also ignored and excluded so local copies are not published. This LaTeX source may differ from the PDF previously supplied separately.
 
 The layout follows the academic CV at https://jasonzhangzy1757.github.io/files/CV.pdf.

@@ -82,6 +82,7 @@ kramdown:
 include:
 - _pages
 exclude:
+- assets/pdf/Shang_Ma_CV.pdf
 - output/
 - overleaf-cv/
 - AGENTS.md

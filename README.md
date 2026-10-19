@@ -21,9 +21,9 @@ Visit http://127.0.0.1:4000. `bundle exec jekyll build` creates `_site/`.
 - `_includes/experience.liquid`: both NEC Labs internships on the homepage.
 - `_includes/education.liquid`: education page content.
 - `_includes/services.liquid`: services page content.
-- `_data/navigation.yml`: direct CV download in the top navigation.
-- `assets/pdf/Shang_Ma_CV.pdf`: supplied CV PDF, downloaded directly from the navigation and homepage links.
-- `docs/cv/resume.tex`: editable CV source; see `docs/cv/README.md` for build instructions.
+- `_data/navigation.yml`: optional custom navigation entries. The CV download has been removed.
+- CV downloads are disabled. `assets/pdf/Shang_Ma_CV.pdf` is ignored by Git and excluded from Jekyll output so a local copy cannot be published accidentally.
+- `docs/cv/resume.tex`: editable CV source, excluded from the website; see `docs/cv/README.md` for local build instructions.
 - `_data/socials.yml`: email and profile links.
 - `_config.yml`: site settings and canonical URL.
 - `assets/img/publication_preview/`: original figures for selected papers; sources are recorded in `docs/publication-figures.md`.
