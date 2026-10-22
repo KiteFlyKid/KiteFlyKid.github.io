@@ -149,7 +149,12 @@
       {{ periodical | strip }}
     </div>
     <div class="periodical">
-      {{ entry.note | strip }}
+      {% assign publication_note = entry.note | strip %}
+      {% if publication_note == 'Oral presentation' %}
+        <strong class="publication-oral">{{ publication_note }}</strong>
+      {% else %}
+        {{ publication_note }}
+      {% endif %}
     </div>
 
     <!-- Links/Buttons -->

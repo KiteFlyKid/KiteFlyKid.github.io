@@ -68,6 +68,16 @@ h2 { margin-top: 2rem; }
 }
 
 /* Original paper figures alongside citations, with full-size links. */
+.publications .publication-oral {
+  display: inline-block;
+  margin-top: .2rem;
+  padding: .05rem .45rem;
+  border: 1px solid currentColor;
+  border-radius: .2rem;
+  color: var(--global-theme-color);
+  font-size: .85rem;
+  font-weight: 700;
+}
 .publications .publication-preview .badge { margin-bottom: .6rem; }
 .publications .publication-figure-link { display: block; }
 .publications .publication-figure-link .preview {
