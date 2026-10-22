@@ -35,7 +35,7 @@ My research focuses on building **structured AI to understand and defend against
 <span id="-news"></span>
 <div class="news-scroll" role="region" aria-labelledby="news" tabindex="0">
   <ul class="news-list">
-    <li><time datetime="2026-09">Sep 2026</time><span>Agent+P accepted to the <strong>AACL 2026 Main Conference</strong>.</span></li>
+    <li><time datetime="2026-09">Sep 2026</time><span>Agent+P accepted to the <strong>AACL 2026 Main Conference</strong> as an <strong>oral presentation</strong>.</span></li>
     <li><time datetime="2026-07">Jul 2026</time><span>PreScam accepted to <strong>COLM 2026</strong>.</span></li>
     <li><time datetime="2026-06">Jun 2026</time><span>Started a research internship in the <strong>Integrated Systems</strong> department at <strong>NEC Laboratories America, Princeton</strong>, working with <a href="https://www.nec-labs.com/research/integrated-systems/people/biplob-debnath/"><strong>Biplob Debnath</strong></a>.</span></li>
     <li><time datetime="2026-01">Jan 2026</time><span>Started a research internship in the <strong>Data Science &amp; System Security</strong> department at <strong>NEC Laboratories America, Princeton</strong>, working with <a href="https://www.nec-labs.com/research/data-science-system-security/people/wei-cheng/"><strong>Wei Cheng</strong></a>.</span></li>
