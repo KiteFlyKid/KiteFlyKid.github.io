@@ -26,8 +26,7 @@ Visit http://127.0.0.1:4000. `bundle exec jekyll build` creates `_site/`.
 - `docs/cv/resume.tex`: editable CV source, excluded from the website; see `docs/cv/README.md` for local build instructions.
 - `_data/socials.yml`: email and profile links.
 - `_config.yml`: site settings and canonical URL.
-- `_layouts/about.liquid`: theme about layout with the Chinese name and pronunciation button beside the English name. Compare with upstream when upgrading the theme.
-- `assets/audio/shang-pronunciation.wav`: a synthesized Mandarin pronunciation of 马尚 (Mǎ Shàng), generated with the installed Tingting voice. The clip says only the name; `assets/js/name-pronunciation.js` plays it when the speaker button is clicked.
+- `_layouts/about.liquid`: theme about layout with the Chinese name beside the English name. Compare with upstream when upgrading the theme.
 - `assets/img/publication_preview/`: original figures for selected papers; sources are recorded in `docs/publication-figures.md`.
 - `_includes/footer.liquid`: the MapMyVisitors image map shown on every page once `mapmyvisitors_id` is set in `_config.yml`. Copy the `d=` value from the provider's image embed into that setting, and set `mapmyvisitors_stats_url` to its statistics link. The map is centered, up to 500px wide, and scales to smaller screens. It loads directly as an image without scripts or an iframe. Visits start recording when the configured widget is published; previous providers' visits are not imported.
 - `_layouts/bib.liquid`: al-folio bibliography template with figure previews and full-size image links.
