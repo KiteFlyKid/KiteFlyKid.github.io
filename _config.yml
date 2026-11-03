@@ -3,6 +3,8 @@ title: blank
 first_name: Shang
 middle_name:
 last_name: Ma
+chinese_name: 马尚
+name_pronunciation: /assets/audio/shang-pronunciation.wav
 contact_note: The best way to reach me is by email.
 description: Shang Ma — PhD student at the University of Notre Dame. Research in program
   analysis, mobile security, UI agents, and scam detection.
